@@ -1,4 +1,4 @@
 jingletron
 ==========
 
-jangletron
+Dependencies: cowsay and fortune
