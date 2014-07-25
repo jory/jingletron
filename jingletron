@@ -10,4 +10,5 @@ NAMES=("jingletron" "jangletron")
 K=`expr $RANDOM % $#NAMES[@] + 1`
 
 echo "Thus spake the $NAMES[$K]:"
-fortune -a | cowsay -W 60 -f $COWS[$I] $ARGS[$J]
+fortune -a | cowsay -W 50 -f $COWS[$I] $ARGS[$J] | sed -e 's/^/  /'
+echo ""
