@@ -1,6 +1,6 @@
 jingletron - A MOTD Machine
 ==========
-Dependencies: cowsay, fortune, and zsh for some reason
+Dependencies: cowsay, fortune, expr and sed
 
 ```
 Thus spake the jangletron:
