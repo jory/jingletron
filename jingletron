@@ -7,7 +7,7 @@ ARGS=("-b" "-d" "-g" "-p" "-s" "-t" "-w" "-y")
 J=`expr $RANDOM % ${#ARGS[@]}`
 
 NAMES=("jingletron" "jangletron")
-K=`expr $RANDOM % ${NAMES[@]} + 1`
+K=`expr $RANDOM % ${#NAMES[@]}`
 
 echo "Thus spake the ${NAMES[$K]}:"
 fortune -a | cowsay -W 60 -f ${COWS[$I]} ${ARGS[$J]}
